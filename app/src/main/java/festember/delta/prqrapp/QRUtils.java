@@ -6,5 +6,5 @@ package festember.delta.prqrapp;
 public class QRUtils {
 	public static final int QR_CAMERA_PERMISSION = 1;
 	public static final int QR_INTERNET_PERMISSION = 2;
-	public static final String qrUrl = "http://192.168.43.213:8000/admin/userqrauth";
+	public static final String qrUrl = "http://api.festember.com/admin/userqrauth";
 }
