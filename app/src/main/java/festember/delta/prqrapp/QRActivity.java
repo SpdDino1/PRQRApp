@@ -217,6 +217,9 @@ public class QRActivity extends Activity
 				}
 			}
 			else {
+				if(mMessage!=null) {
+					mQrMessageView.setText(mMessage);
+				}
 				if(string!=null && string.equals("Same"))
 					Toast.makeText(QRActivity.this, "You scanned admin qr instead of client", Toast.LENGTH_SHORT).show();
 				else
